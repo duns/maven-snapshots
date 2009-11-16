@@ -1,6 +1,5 @@
 ---
 title: Duns' Maven Snaphot Repository
-layout: default
 ---
 
 Duns' Maven Snapshot Repository
