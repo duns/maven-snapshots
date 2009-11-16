@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.sf.antcontrib</groupId>
+  <artifactId>cpptasks-parallel</artifactId>
+  <version>1.0-beta-5-parallel-1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20091116.101126</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <lastUpdated>20091116101127</lastUpdated>
+  </versioning>
+</metadata>
