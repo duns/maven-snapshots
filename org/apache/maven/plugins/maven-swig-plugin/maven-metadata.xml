@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-swig-plugin</artifactId>
+  <version>1.3.40-1-SNAPSHOT</version>
+  <versioning>
+    <latest>1.3.40-1-SNAPSHOT</latest>
+    <versions>
+      <version>1.3.40-1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20091116104223</lastUpdated>
+  </versioning>
+</metadata>

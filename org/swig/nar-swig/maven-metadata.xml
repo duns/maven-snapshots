@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.swig</groupId>
+  <artifactId>nar-swig</artifactId>
+  <version>1.3.40-1-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>1.3.40-1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20091116103950</lastUpdated>
+  </versioning>
+</metadata>

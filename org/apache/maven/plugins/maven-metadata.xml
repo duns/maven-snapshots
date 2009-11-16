@@ -6,5 +6,10 @@
       <prefix>nar</prefix>
       <artifactId>maven-nar-plugin</artifactId>
     </plugin>
+    <plugin>
+      <name>Maven SWIG Plugin</name>
+      <prefix>swig</prefix>
+      <artifactId>maven-swig-plugin</artifactId>
+    </plugin>
   </plugins>
 </metadata>
