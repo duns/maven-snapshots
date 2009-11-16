@@ -1,6 +1,7 @@
 This repository keeps my Maven SNAPSHOT artifacts so that people can use:
 
       <pluginRepositories>
+        ...
         <repository>
           <id>duns-maven-snapshots</id>
           <name>Duns' Maven Snapshots</name>
@@ -12,7 +13,27 @@ This repository keeps my Maven SNAPSHOT artifacts so that people can use:
           </snapshots>
           <url>http://duns.github.com/maven-snapshots</url>
         </repository>
+        ...
       </pluginRepositories>
+
+and 
+
+      <repositories>
+        ...
+        <repository>
+          <id>duns-maven-snapshots</id>
+          <name>Duns' Maven Snapshots</name>
+          <releases>
+            <enabled>false</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+          <url>http://duns.github.com/maven-snapshots</url>
+        </repository>
+        ...
+      </repositories>
+
 
 in their settings.xml or pom.xml
 
