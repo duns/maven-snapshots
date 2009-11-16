@@ -1,7 +1,7 @@
 Duns' Maven Snapshot Repository
 ===============================
 
-The following artifacts are available:<p>
+The following artifacts are available:
 
 <table>
   <tr>
