@@ -40,5 +40,5 @@ The following artifacts are available:
   </tr>
 </table>
 
-Mark Donszelmann
+<Mark.Donszelmann@gmail.com>
 
