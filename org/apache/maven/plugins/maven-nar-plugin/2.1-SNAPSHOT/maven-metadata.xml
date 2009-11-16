@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-nar-plugin</artifactId>
+  <version>2.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20091116.101350</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20091116101350</lastUpdated>
+  </versioning>
+</metadata>
