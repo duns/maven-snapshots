@@ -5,9 +5,8 @@
   <version>2.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20100313.203347</timestamp>
-      <buildNumber>2</buildNumber>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20100313203347</lastUpdated>
+    <lastUpdated>20100313212007</lastUpdated>
   </versioning>
 </metadata>
