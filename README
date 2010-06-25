@@ -16,5 +16,22 @@ This repository keeps my Maven SNAPSHOT artifacts so that people can use:
 
 in their settings.xml or pom.xml
 
+Below the steps to setup a Nexus server to proxy the nar plugin repository hosted over on github.
+
+1) In Nexus, I created a new Proxy Repository, and chose an arbitrary ID and name for it. ("github-duns")
+2) I made sure to select "Snapshot" as the repository policy.
+3) The url I used as the remote storage location is:
+http://github.com/duns/maven-snapshots/raw/gh-pages
+4) I made sure to have the "download remote indexes" option set to False.
+5) I set all the expiration settings to 2 minutes while I was playing around with things so any changes I made took effect quickly.
+6) The other settings for the new repository I left as the defaults.
+7) I have a repository group called "public" which is what all of the pom.xml files for my actual builds refer to, so I adjusted that group and added the newly created "github-duns" repository to the list.
+
+Note the /raw/ instead /tree/ in the url. I had thought I used a similar url before, but it wasn't working initially. I then ended up playing around with it, doing things like adding "/org" on to the end, until I noticed that I could actually browse the remote files through Nexus. Once that started working, I stripped off the extra subdirectory paths, and I was able to browse things from the top directory.
+
+I am now able to successfully use the nar plugin from machines within my firewall.
+
+(thanks to Eric Hawicz for this procedure)
+
 Mark Donszelmann
 
