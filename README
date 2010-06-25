@@ -11,7 +11,7 @@ This repository keeps my Maven SNAPSHOT artifacts so that people can use:
           <snapshots>
             <enabled>true</enabled>
           </snapshots>
-          <url>http://duns.github.com/maven-snapshots</url>
+          <url>http://github.com/duns/maven-snapshots/raw/gh-pages</url>
         </pluginRepository>
         ...
       </pluginRepositories>
@@ -29,7 +29,7 @@ and
           <snapshots>
             <enabled>true</enabled>
           </snapshots>
-          <url>http://duns.github.com/maven-snapshots</url>
+          <url>http://github.com/duns/maven-snapshots/raw/gh-pages</url>
         </repository>
         ...
       </repositories>
